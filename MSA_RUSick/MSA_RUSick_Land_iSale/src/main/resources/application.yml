@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: iSale
+  profiles:
+    active: test
+  config:
+    import: "optional:configserver:"
+  datasource:
+    url: jdbc:mysql://localhost:3306/isale?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+server:
+  port: 9003
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.uuid}
+

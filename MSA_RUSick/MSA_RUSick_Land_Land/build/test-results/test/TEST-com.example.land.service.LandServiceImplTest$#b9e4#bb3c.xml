@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.land.service.LandServiceImplTest$매물" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-13T07:50:27" hostname="baaam.local" time="0.045">
+  <properties/>
+  <testcase name="매물생성()" classname="com.example.land.service.LandServiceImplTest$매물" time="0.01"/>
+  <testcase name="매물삭제()" classname="com.example.land.service.LandServiceImplTest$매물" time="0.017"/>
+  <testcase name="이미존재()" classname="com.example.land.service.LandServiceImplTest$매물" time="0.016"/>
+  <system-out><![CDATA[2024-05-13T16:50:27.403+09:00  INFO 70469 --- [land] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.land.service.LandServiceImplTest$매물]: 매물 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-13T16:50:27.403+09:00  INFO 70469 --- [land] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.land.LandApplication for test class com.example.land.service.LandServiceImplTest$매물
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: insert into lands (land_address,land_area,land_built_date,land_category,land_description,land_detail_address,land_name,land_price,land_yn,owner_id,owner_name,land_id) values (?,?,?,?,?,?,?,?,?,?,?,?)
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.owner_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: insert into lands (land_address,land_area,land_built_date,land_category,land_description,land_detail_address,land_name,land_price,land_yn,owner_id,owner_name,land_id) values (?,?,?,?,?,?,?,?,?,?,?,?)
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.owner_id=?
+Hibernate: delete from lands where land_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.owner_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+Hibernate: select l1_0.land_id,l1_0.land_address,l1_0.land_area,l1_0.land_built_date,l1_0.land_category,l1_0.land_description,l1_0.land_detail_address,l1_0.land_name,l1_0.land_price,l1_0.land_yn,l1_0.owner_id,l1_0.owner_name from lands l1_0 where l1_0.land_id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
