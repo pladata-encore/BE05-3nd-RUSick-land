@@ -1,1 +1,1 @@
-# BE05-3nd-RUSick-land
+# BE05-3rd-RUSick-land
